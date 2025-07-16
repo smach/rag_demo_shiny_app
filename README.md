@@ -10,7 +10,7 @@ I published [a similar app on Posit Connect Cloud that you can check out](https:
 
 Important: There was a strange bug recently when trying to run the app on Windows that has nothing to do with the ragnar package. If you run into 
 problems, make sure you have the development version of ellmer, not the CRAN version 
-(install it with `pak::pak(("tidyverse/ellmer")` ). If you want the CRAN version of ellmer, you can deal with the bug by rolling back your `httr2` R package version to 
+(install it with `pak::pak("tidyverse/ellmer")` ). If you want the CRAN version of ellmer, you can deal with the bug by rolling back your `httr2` R package version to 
 version 1.1.1 if you have the 1.1.2. 
 
 You can instal httr2 1.1.1 specifically with      
