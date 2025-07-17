@@ -195,7 +195,7 @@ server <- function(input, output, session) {
   chat_obj <- reactiveVal(NULL)
   
   observe({
-    # Check API key
+   # Check API key
     api_key <- Sys.getenv("OPENAI_API_KEY")
     if (api_key == "" || is.null(store)) {
       message("Missing API key or store")
